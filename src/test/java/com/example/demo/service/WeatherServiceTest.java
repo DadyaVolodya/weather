@@ -35,6 +35,7 @@ class WeatherServiceTest {
         assertEquals(mockData, result);
     }
 
+
     @Test
     public void test_handles_null_city_name() {
         WeatherService weatherService = new WeatherService();
